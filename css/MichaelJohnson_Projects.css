@@ -1,0 +1,111 @@
+header {
+	background-image: url("../images/circuit board revised 2.jpg");
+	background-size: 100% 100%; 
+	font-family: "Sumana", serif;
+	font-size: 28px;
+	color: #FFFFEF;
+	text-shadow: 20px 20px 30px #000000;
+	height: 189px;
+	padding: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+body {
+	background-color: #cfebfd;
+	font-family: "Sumana", serif;
+	font-size: 18px;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+	margin: 80px 120px 80px 120px;
+	text-align: left;
+}
+
+li {
+	display: inline-block;
+	width: 350px;
+	margin: 0px 100px -10px 10px;
+}
+
+p {
+	margin: -10px 10px 10px 0px;
+	line-height: 20px;
+	display: inline-block;
+}
+span {
+	color: midnightblue;
+	font-weight: 900;
+	font-size: 20px ;
+}
+img {
+	margin: 10px -20px -30px 0px;
+	max-width: 1000px;
+}
+
+@media (max-width: 1600px) 	{
+
+ul {
+	margin: 80px 120px -40px 120px;
+}
+
+
+li {
+	    width: 300px;
+		margin: 10px 10px -40px 10px;
+}
+
+p {
+	margin: -15px 0px -40px 0px;
+	line-height: 17px;
+	position: relative;
+}
+
+	
+img { 
+	width: 100%;
+	height: 100%;
+	}
+} 
+
+@media (max-width: 800px) 	{
+
+ul {
+	margin: 80px 80px -40px 70px;
+}	
+
+li {
+	width: 300px;
+	margin: 10px 10px -40px 10px;
+}
+
+p {
+	width: 450px;
+	margin: -15px 0px -40px 0px;
+	line-height: 17px;
+}
+	
+img { 
+	width: 150%;
+	height: 150%;	
+	}
+} 
+
+@media (max-width: 500px) 	{
+
+ul {
+	margin: 80px 80px -40px 10px;
+}
+p {
+	width: 300px;
+	margin: -15px 0px -40px 0px;
+	line-height: 17px;
+}
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}

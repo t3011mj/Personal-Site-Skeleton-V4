@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'FFF Tusj';
+	src: url("../fonts/FFF_Tusj.ttf") format('truetype');
+}
+
+header {
+	background-image: url("../images/circuit board revised 2.jpg");
+	background-size: 100% 100%; 
+	font-family: "Sumana", serif;
+	font-size: 24px;
+	color: #FFFFEF;
+	text-shadow: 20px 20px 30px #000000;
+	text-align: center;
+	height: 189px;
+	padding: 50px;
+	line-height: 40px;
+
+}
+
+body {
+    background-color: #cfebfd;
+	background-size: 100%;
+	color: #000000;
+	opacity: 0.9;
+	font family: "Times New Roman", Times, sans-serif;
+    font-size: 20px;
+}
+
+img {
+	max-width: 1000px;
+	display: block;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+	border: 5px solid grey ;
+	border-radius: 10px;
+	background-color: midnightblue;
+}
+ul.highlights {
+	font-size: 22px;
+}
+
+strong {
+	font-size: 22px;
+}
+div {
+	position: center;
+}
+nav {
+	background-color: #483D8B;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px - 1px rgba(0, 0, 0, 055);
+	color: #888;
+	margin: 2px 22px 8px 22px;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+
+}
+nav ul {
+	margin: 0 -2px 0 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+
+	-webkit-transition: all 0.2s;
+	-mos-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+nav ul li a {
+	color: #FFFFFF;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+@media (max-width: 800px) 	{
+
+	header {
+		font-size: 16px;
+		line-height: 40px;
+	 }
+	
+	img { 
+		width: 50%;
+		height: 50%;
+	}
+} 
+
+@media (max-width: 300px) 	{
+
+	header {
+		font-size: 8px;
+		line-height: 10px;
+	 }
+
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}
